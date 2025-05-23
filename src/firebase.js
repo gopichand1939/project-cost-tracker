@@ -4,13 +4,12 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC3dsvP21ZI3rcFn-9VDO8bBIy1SQNZjN8",
-  authDomain: "project-cost-tracker-b9be8.firebaseapp.com",
-  projectId: "project-cost-tracker-b9be8",
-  storageBucket: "project-cost-tracker-b9be8.appspot.com",
-  messagingSenderId: "342987056621",
-  appId: "1:342987056621:web:a3e46439117d0acfd5f3e4"
-  // measurementId is optional and not needed here
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID
 };
 
 const app = initializeApp(firebaseConfig);
