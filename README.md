@@ -1,6 +1,4 @@
-Absolutely. Here is a complete, professional, and personalized `README.md` file for your **Project Cost Tracker**, written from your perspective as the developer who implemented it.
 
----
 
 ### ✅ File: `README.md`
 
@@ -23,6 +21,12 @@ The **Project Cost Tracker** allows authenticated users to:
 The app is responsive, styled using **Chakra UI**, and manages state with **Redux Toolkit**.
 
 ---
+
+video walk through::
+
+https://drive.google.com/file/d/1uVKkCGiz494IyZ3boYMkjx0Y_PIzxumF/view?usp=sharing
+
+
 
 ## 🚀 Features Implemented
 
